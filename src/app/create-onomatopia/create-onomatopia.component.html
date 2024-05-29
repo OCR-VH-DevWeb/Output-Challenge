@@ -1,0 +1,11 @@
+<form (ngSubmit)="createOnomatopia()">
+  <label for="onomatopia">Onomatopia: </label>
+  <input
+    id="onomatopia"
+    name="onomatopia"
+    type="text"
+    [(ngModel)]="newOnomatopia"
+    required
+  />
+  <button type="submit">Add</button>
+</form>
